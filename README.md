@@ -1,2 +1,3 @@
 # techdegree-project-3
-newsletter signup form
+registration form for users
+
