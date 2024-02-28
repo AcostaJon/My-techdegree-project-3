@@ -1,6 +1,8 @@
+/* all elemnts */
 * {
   box-sizing: border-box;
 }
+/* body */
 body {
   margin: 0;
   font-family: "Merriweather", serif;
@@ -15,7 +17,7 @@ p,
 label {
   color: rgb(141, 141, 141);
 }
-
+/* form */
 form {
   border-top: 2px solid rgb(62, 59, 85);
 }
@@ -136,9 +138,11 @@ select {
   border-radius: 5px;
 }
 
+
 select,
 ::placeholder {
   color: rgb(180, 180, 180);
+ 
 }
 
 ::placeholder {
@@ -163,7 +167,7 @@ textarea:focus {
   font-style: italic;
 }
 
-/*tablet and desktop view */
+/* desktop view */
 @media screen and (min-width: 768px) {
   main {
     width: 60%;
